@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELECTROSHOP|| Frontend</title>
+    <link rel="stylesheet" href="./public/scss/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,300;1,300&family=Jost:ital,wght@0,400;0,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+</head>
+<body>
+    
+    <header>
+            <div class="header_top">
+                <div class="header_menu"> <!-- contenedor del menu -->
+                    <span class="material-symbols-outlined">menu</span>
+                </div>
+                <div class="header_logo"><!-- contenedor del logo -->
+                    <h1><span>ELECTROSHOP</span></h1>
+                </div>
+                <div class="header_carrito"><!-- contenedor del carrito -->
+                    <button id="button-cart">
+                        <span class="material-symbols-outlined">shopping_cart_checkout</span>
+                        <span id="counter-cart">0</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="header_bot">
+                <nav>
+                    <ul class="lista">
+                        <li class="lista__item">
+                            <a class="itemTexto" href="" target="_self"><span class="material-symbols-outlined">
+                                sell
+                                </span><h4>OFERTAS</h4></a>
+                        </li>
+                        <li class="lista__item">
+                            <a class="itemTexto" href="" target="_self"><span class="material-symbols-outlined">
+                                computer
+                                </span><h4>NOTEBOOKS</h4></a>
+                        </li>
+                        <li class="lista__item">
+                            <a class="itemTexto" href="" target="_self"><span class="material-symbols-outlined">
+                                smartphone
+                                </span><h4>CELULARES</h4></a>
+                        </li>
+                        <li class="lista__item">
+                            <a class="itemTexto" href="" target="_self"><span class="material-symbols-outlined">
+                                desktop_windows
+                                </span><h4>PC ESCRITORIO</h4></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+    </header>
+    <!-- PROMOCIONES -->
+    <div id="promosContainer" class="promosCont">
+        <div class="itemPromo">
+            <a href="" target="_self">
+                <div class="card">
+                    <img src="./public/images/notei3.png" alt="">
+                    <div>Notebook Lenovo 14” Core i5 8GB 256GB SSD IdeaPad 3</div>
+                    <span><b>$194.999</b></span>
+                </div>
+            </a>
+        </div>
+        <div class="itemPromo">
+            <a href="" target="_self">
+            <div class="card">
+                <img src="./public/images/notei3.png" alt="">
+                <div>Notebook Lenovo 14” Core i5 8GB 256GB SSD IdeaPad 3</div>
+                <span><b>$194.999</b></span>
+            </div>
+             </a>
+        </div>
+        <div class="itemPromo"></div>
+    </div>
+    <!-- PROMOCIONES -->
+    <!-- FILTRADO -->
+    <div class="contFil">
+        <button id="filter" class="ssFilter">FILTER</button>
+        <div id="itemsFilter" class="sasFilter">
+            <span class="filspan menor">MENOR PRECIO</span>
+            <span class="filspan mayor">MAYOR PRECIO</span>
+        </div>
+    </div>    
+    
+    <!-- FILTRADO -->
+    <!-- MAIN -->
+    <main id="mainOffers">
+     <!--    <div class="longCard" >
+            <img src="./public/images/notei5.png" alt="">
+            <div class="descrip">
+                <a href="" target="_self"><div>Notebook Lenovo 14” Core i5 8GB 256GB SSD IdeaPad 3</div></a>
+                <span><b>$199.999</b></span>
+                <button id="button" class="agregar">AÑADIR AL CARRITO</button>
+            </div>    
+        </div> -->
+    </main>
+    <!-- MAIN -->
+
+
+
+    <script src="./data/data.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
