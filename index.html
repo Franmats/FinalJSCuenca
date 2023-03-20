@@ -23,7 +23,7 @@
                 <div class="header_carrito"><!-- contenedor del carrito -->
                     <button id="button-cart">
                         <span class="material-symbols-outlined">shopping_cart_checkout</span>
-                        <span id="counter-cart">0</span>
+                        <span id="counter-cart"></span>
                     </button>
                 </div>
             </div>
@@ -53,6 +53,22 @@
                         </li>
                     </ul>
                 </nav>
+            </div>
+
+            <div class="cartss">              
+                <div id="cartSlider" class="cartContainer">
+                    <div class="cartName"><b>CARRITO</b></div>
+                    <div id="itemsContainer">
+<!--                     <div class="itemCart">
+                        <div>${product.nombre}
+                            <span><b>$ ${product.precio}x<div id="cantidad${product.id}">${product.cantidad}</div></b></span>
+                        </div>
+                        <span class="material-symbols-outlined delete" >delete</span>  
+                    </div> -->
+                    </div>
+                    <div class="cartTotal">TOTAL A PAGAR: <span id="totalCart"> </span></div>
+                    <button id="buy">COMPRAR</button>
+                </div>
             </div>
 
     </header>
@@ -96,7 +112,7 @@
             <div class="descrip">
                 <a href="" target="_self"><div>Notebook Lenovo 14” Core i5 8GB 256GB SSD IdeaPad 3</div></a>
                 <span><b>$199.999</b></span>
-                <button id="button" class="agregar">AÑADIR AL CARRITO</button>
+                <button id="product.id" class="add">AÑADIR AL CARRITO</button>
             </div>    
         </div> -->
     </main>
@@ -106,6 +122,7 @@
 
     <script src="./data/data.js"></script>
     <script src="./js/app.js"></script>
+    <script src="./js/cart.js"></script>
 </body>
 
 </html>

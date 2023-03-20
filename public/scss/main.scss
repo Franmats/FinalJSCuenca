@@ -69,17 +69,54 @@ header {
                         color: aliceblue;
                         font-family:$font;
                         text-decoration: none;
-                        transition: all .25s;
-/*                         &:hover{
-                            background-color: aliceblue;
-                            color: rgb(76, 153, 240);
-                        } */
                     }
                 }
             }
         }    
     }
-    
+    & .cartss {
+        background-color: beige;
+        .cartContainer {
+            position:absolute;
+            top: 60px;
+            left: 0;
+            display: flex;
+            background-color: white;
+            flex-direction: column;
+            height: 100%;
+            width: 100%;
+            transform: translateX(-100%);
+            font-family: $font;
+            .cartName {
+                text-align: center;
+                font-size: 18px;
+                background-color: rgb(125, 236, 151);
+                margin-bottom: 15px;
+            }
+            div .itemCart{
+                display: grid;
+                grid-template-columns: 3fr 0.5fr;
+                grid-template-rows: 1fr;
+                text-align: center;
+                margin-top: 5px;
+                margin-bottom: 10px;
+            } 
+
+            .cartTotal {
+                display: flex;
+                justify-content: space-around;
+                text-align: center;
+                font-size: 18px;
+                background-color: rgb(125, 236, 151);
+                margin-bottom: 15px;
+            }
+        }
+        .open {
+            transform: translateX(0);
+        }
+    }
+
+
 }
 
 .promosCont {
