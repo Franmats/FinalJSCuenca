@@ -100,6 +100,7 @@ header {
                 text-align: center;
                 margin-top: 5px;
                 margin-bottom: 10px;
+                box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 4px 0px;
             } 
 
             .cartTotal {
@@ -119,6 +120,7 @@ header {
 
 }
 
+// CODIGO DE LAS PROMOCIONES
 .promosCont {
     display: flex;
     flex-wrap: nowrap;
@@ -129,7 +131,6 @@ header {
         background-color: rgb(255, 255, 255);
         width: 200px;
         height: 200px;
-        
         a {
             text-decoration: none;
             .card {
@@ -153,9 +154,7 @@ header {
     }
 }
 
-//FILTRADO
-
-
+//CODIGO DEL FILTRADO
 
 .contFil {
     display: flex;
@@ -193,10 +192,7 @@ header {
     }
 }
 
-
-
-
-//MAIN OFFERS
+//CODIGO DEL MAIN DONDE MUESTRO PRODUCTOS
 
 #mainOffers {
     display:flex;
@@ -225,5 +221,50 @@ header {
                 font-size: 15px;  
             }
         }
+    }
+}
+
+
+// MEDIAQUERIES
+
+@media (min-width : $tablet) {
+    header {
+        margin-left: 250px;
+        margin-right: 250px;
+
+    }
+
+    .promosCont {
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+    
+    .contFil {
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+
+    #mainOffers {
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+    .cartName {
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+
+    #itemsContainer {
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+
+    .cartTotal {
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+
+    #buy {
+        margin-left: 250px;
+        margin-right: 250px;
     }
 }

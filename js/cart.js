@@ -2,7 +2,7 @@ const openCart = document.getElementById("button-cart");
 const cartElement = document.getElementById("cartSlider");
 
 openCart.addEventListener("click", ()=> {
-    cartElement.classList.toggle("open");
+    cartElement.classList.toggle("open"); //con el toogle le ponemos una clase para q se abra el carrito
 })
 
 

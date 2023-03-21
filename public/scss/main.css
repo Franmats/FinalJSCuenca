@@ -87,6 +87,7 @@ header .cartss .cartContainer div .itemCart {
   text-align: center;
   margin-top: 5px;
   margin-bottom: 10px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 4px 0px;
 }
 header .cartss .cartContainer .cartTotal {
   display: flex;
@@ -192,4 +193,39 @@ header .cartss .open {
   color: black;
   font-family: "Archivo", sans-serif;
   font-size: 15px;
+}
+
+@media (min-width: 768px) {
+  header {
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+  .promosCont {
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+  .contFil {
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+  #mainOffers {
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+  .cartName {
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+  #itemsContainer {
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+  .cartTotal {
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+  #buy {
+    margin-left: 250px;
+    margin-right: 250px;
+  }
 }/*# sourceMappingURL=main.css.map */

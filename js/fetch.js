@@ -1,5 +1,7 @@
 
-const promoscionesContainer = document.getElementById("promosContainer")
+//Promociones con Fetch, solo funciona con live server activado de otra forma no me funciono
+
+const promoscionesContainer = document.getElementById("promosContainer") // contenedor de las promociones
 fetch("../data/promos.json")
     .then(response => response.json())
     .then(data => {
