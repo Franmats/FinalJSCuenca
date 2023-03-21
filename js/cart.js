@@ -104,3 +104,4 @@ if (localStorage.getItem('cart')) {
     printCart(cart)
     refreshTotalCart(cart)
 }
+
